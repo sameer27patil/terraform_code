@@ -1,5 +1,5 @@
 variable "kubernetes_version" {
-  default     = 1.27
+  default     = 1.31
   description = "kubernetes version"
 }
 
@@ -10,4 +10,4 @@ variable "vpc_cidr" {
 variable "aws_region" {
   default = "ap-south-1"
   description = "aws region"
-}
+}   

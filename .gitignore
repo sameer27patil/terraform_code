@@ -12,9 +12,7 @@
 # Ignore backup files
 **/*.backup
 
-# Ignore sensitive variable files
-**/*.tfvars
-**/*.tfvars.json
+
 
 # Ignore plan files
 **/*.tfplan

@@ -7,6 +7,11 @@ module "eks" {
   subnet_ids      = module.vpc.private_subnets
 
   enable_irsa = true
+    # Optional
+  cluster_endpoint_public_access = true
+
+  # Optional: Adds the current caller identity as an administrator via cluster access entry
+  enable_cluster_creator_admin_permissions = true
 
   tags = {
     cluster = "jmsth-demo"
